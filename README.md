@@ -4,7 +4,8 @@ Welcome to the Machine Learning Activities Repository! This repository serves as
 LSTM Project
 This project was developed in collaboration with a team passionate about ML.  
 
-Team Members
+Team Members:
+
 First Member Name: Jonathan Loor
 
 Second Member Name: Ariana Jiménez
