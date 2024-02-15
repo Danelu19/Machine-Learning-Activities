@@ -1,0 +1,55 @@
+## K-Means Clustering
+
+### Description:
+This Python script demonstrates the application of K-Means clustering on a dataset containing information about age and annual income. The dataset is visualized using a scatter plot, and the Elbow method is employed to determine the optimal number of clusters (k). The script then performs K-Means clustering and visualizes the resulting clusters.
+
+### Dependencies:
+- Python 3.x
+- Libraries: pandas, numpy, sklearn, matplotlib
+
+### Usage:
+1. Install the required libraries using:
+   ```
+   pip install pandas numpy scikit-learn matplotlib
+   ```
+
+2. Run the script by executing:
+   ```
+   python kmeans_clustering.py
+   ```
+
+### Output:
+The script generates a scatter plot of the dataset, an Elbow plot to determine the optimal k value, and a final scatter plot with clusters identified.
+
+### Additional Notes:
+- The dataset is loaded from a CSV file hosted on GitHub, and the script contains comments to guide you through each step.
+- Normalization using MinMaxScaler is applied to the dataset before clustering.
+- The Elbow method is used to find the optimal k value for clustering.
+
+## Hierarchical Clustering
+
+### Description:
+This Python script demonstrates the application of Hierarchical Clustering on a randomly generated dataset. The script includes the creation of a distance matrix, visualization of the dendrogram, and the use of different linkage methods (average, complete, and single) for clustering.
+
+### Dependencies:
+- Python 3.x
+- Libraries: numpy, scipy, matplotlib, sklearn
+
+### Usage:
+1. Install the required libraries using:
+   ```
+   pip install numpy scipy matplotlib scikit-learn
+   ```
+
+2. Run the script by executing:
+   ```
+   python hierarchical_clustering.py
+   ```
+
+### Output:
+The script generates a scatter plot of the randomly generated dataset, a distance matrix, and dendrograms for average, complete, and single linkage methods.
+
+### Additional Notes:
+- The dataset is randomly generated using the `make_blobs` function from scikit-learn.
+- Different linkage methods are applied to observe their impact on cluster formation.
+- The script includes comments to guide you through each step.
