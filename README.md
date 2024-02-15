@@ -72,7 +72,7 @@ This repository contains Python scripts for performing data clustering using K-M
 The K-Means clustering script uses a dataset containing age and annual income information. You can find the dataset [here](https://raw.githubusercontent.com/erickedu85/dataset/master/age_income.csv).
 
 
-# LSTM Project
+# LSTM Project -  Public Procurement Process Prediction System
 This project was developed in collaboration with a team passionate about ML.  
 
 Team Members:
@@ -82,3 +82,34 @@ Team Members:
 - Second Member Name: Ariana Jiménez
 
 - Third Member Name: Dánely Sánchez
+
+This project aims to develop a prediction system for the stages of public procurement processes using machine learning models, specifically neural networks. These models can classify processes into different stages such as planning, tendering, awarding, contracting, and implementation.
+
+## Description of Scripts
+
+### Data Processing
+
+This script utilizes the pandas library to process and consolidate data from multiple CSV files corresponding to different years. The result is saved in new CSV files for further analysis and model training.
+
+### TensorFlow Installation
+
+This section provides instructions for installing the TensorFlow library, which is necessary to run the machine learning models developed in the project.
+
+### Model Training
+
+The project includes several machine learning models trained with different feature sets, each with its specified level of accuracy. These models are designed to predict the stage of a public procurement process.
+
+### Model Testing
+
+Details on how to test the model with new process descriptions are provided, including code examples and practical illustrations.
+
+## Requirements.txt
+
+   ```
+   pandas==1.3.3
+   numpy==1.21.2
+   scikit-learn==0.24.2
+   tensorflow==2.6.0
+   matplotlib==3.4.3
+   ```
+  
