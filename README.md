@@ -6,5 +6,7 @@ This project was developed in collaboration with a team passionate about ML.
 
 Team Members
 First Member Name: Jonathan Loor
+
 Second Member Name: Ariana Jiménez
+
 Third Member Name: Dánely Sánchez
